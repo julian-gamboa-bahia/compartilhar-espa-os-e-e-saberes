@@ -1,0 +1,95 @@
+/* Definindo a cor base laranja claro */
+:root {
+    --orange-light: #ffa726; /* Exemplo de cor laranja claro */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1,h2,h3, .navbar-brand {
+    color: var(--orange-light);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--orange-light);
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #ff7043; /* Um tom um pouco mais escuro para o hover */
+}
+
+.btn-primary {
+    background-color: var(--orange-light);
+    border-color: var(--orange-light);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #ff7043;
+    border-color: #ff7043;
+}
+
+.card-title, .card-text {
+    color: #333;
+}
+
+.card {
+    border-radius: 15px; /* Bordas arredondadas dos cards */
+    overflow: hidden; /* Garante que a imagem não saia das bordas arredondadas */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.fixed-top {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    border-radius: 25px; /* Bordas arredondadas dos botões */
+    background-color: var(--orange-light);
+    border-color: var(--orange-light);
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background-color: #ff7043;
+    border-color: #ff7043;
+}
+
+.img-coworking {
+    max-height: 180px; /* Altura máxima de 180px */
+    object-fit: cover; /* Corta a imagem para preencher a área sem distorção */
+    width: 100%;
+}
+
+.modal-header {
+    background-color: #FFA07A; /* Laranja claro */
+    color: white;
+}
+
+.modal-footer {
+    background-color: #FFDAB9; /* Laranja claro mais suave */
+}
+
+.modal-body {
+    background-color: #FFF5EE; /* Laranja claro bem suave */
+}
+
